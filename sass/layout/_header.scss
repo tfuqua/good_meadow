@@ -1,0 +1,27 @@
+header{
+
+  position: relative;
+  border-top:none;
+  margin-bottom:15px;
+
+  .brand {
+    width:100%;
+
+    img{
+      position: absolute;
+      height:80px;
+      top:2px;
+      margin:0;
+      margin-left: -65px;
+      left:50%;
+      z-index: 600;
+
+      @media (min-width: $screen-md-min) {
+        top: -12.5px;
+        margin:0;
+        height: 100px;
+        left:15px;
+      }
+    }
+  }
+}
