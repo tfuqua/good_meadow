@@ -19,13 +19,17 @@ get_header(); ?>
 	      </div>
 	    <?php } ?>
 
-			<div class="container-fluid">
-				<?php
-				while ( have_posts() ) : the_post();
-        the_content();
-        $pageID = get_the_ID();
-				endwhile; // End of the loop.
-				?>
+			<div class="container-fluid products-content">
+				<div class="row">
+					<div class="col-md-10 col-md-push-1">
+						<?php
+						while ( have_posts() ) : the_post();
+		        the_content();
+		        $pageID = get_the_ID();
+						endwhile; // End of the loop.
+						?>
+					</div>
+				</div>
 
   			<div class="product-list">
           <?php
