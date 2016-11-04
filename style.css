@@ -41,6 +41,11 @@ header {
   margin-top: -15px;
   margin-bottom: 50px; }
 
+.hero.mini-hero {
+  margin-bottom: 50px;
+  padding: 50px 0;
+  min-height: 300px; }
+
 .product-card .product-img {
   margin: 0;
   overflow: hidden; }
@@ -83,3 +88,10 @@ header {
   line-height: 1.5;
   color: #794400;
   padding: 20px 0; }
+
+.product-content img {
+  max-width: 100%;
+  height: auto; }
+  .product-content img.aligncenter {
+    display: block;
+    margin: 30px auto; }

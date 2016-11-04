@@ -7,3 +7,16 @@
   color: #794400;
   padding:20px 0;
 }
+
+.product-content{
+  
+  img {
+    max-width: 100%;
+    height: auto;
+
+    &.aligncenter{
+      display: block;
+      margin: 30px auto;
+    }
+  }
+}
