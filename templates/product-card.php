@@ -9,11 +9,8 @@
 		<div class="product-section">
 			<h3><?php the_title(); ?></h3>
 			<div class="blurb">
-				<?php the_excerpt() ?>
+				<?php the_content() ?>
 			</div>
-		</div>
-		<div class="product-buttons">
-			<a href="<?php echo get_permalink(); ?>">Details</a>
 		</div>
 	</div>
 </div>
