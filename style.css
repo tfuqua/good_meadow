@@ -44,25 +44,6 @@ header {
   padding: 50px 0;
   min-height: 300px; }
 
-.product-card .product-img {
-  margin: 0;
-  overflow: hidden; }
-  .product-card .product-img img {
-    width: 100%;
-    height: auto; }
-
-.product-card .product-buttons {
-  text-align: left;
-  overflow: visible; }
-  .product-card .product-buttons a {
-    margin: 0;
-    font-size: 18px;
-    width: auto;
-    float: none;
-    display: inline;
-    border-radius: 6px;
-    padding: 10px 25px; }
-
 .home-content {
   position: relative;
   padding: 50px 0 100px;
@@ -77,19 +58,3 @@ header {
     .home-content .container-fluid h1, .home-content .container-fluid h2, .home-content .container-fluid h3 {
       color: #c1311a;
       margin: 20px 0; }
-
-.products-content {
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  color: #794400;
-  padding: 20px 0; }
-
-.product-content img {
-  max-width: 100%;
-  height: auto; }
-  .product-content img.aligncenter {
-    display: block;
-    margin: 30px auto; }

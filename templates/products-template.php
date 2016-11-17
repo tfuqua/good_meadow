@@ -17,7 +17,25 @@ get_header(); ?>
 	          </div>
 	        </div>
 	      </div>
-	    <?php } ?>
+				<?php
+					} else {
+						$background =  get_template_directory_uri() . '/images/hero.png';
+						?>
+						 <div class="hero mini-hero" style="background-image: url('<?php echo $background ?>');">
+							<div class="hero-text-wrapper">
+								<div>
+									<div class="hero-text">
+										<?php
+										while ( have_posts() ) : the_post();
+											the_title();
+										endwhile;
+										?>
+									</div>
+								</div>
+							</div>
+						</div>
+				<?php
+				 }?>
 
 			<div class="container-fluid products-content">
 				<div class="row">

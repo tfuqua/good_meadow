@@ -9,13 +9,17 @@ function goodmeadow_enqueue_styles() {
 
 add_action( 'wp_enqueue_scripts', 'goodmeadow_enqueue_styles' );
 
-function my_remove_page_template( $pages_templates ) {
+function remove_page_templates( $pages_templates ) {
 
-    unset( $pages_templates['templates/page-products.php'] );
-    unset( $pages_templates['templates/page-product.php'] );
+    unset($pages_templates['templates/blog.php']);
+    unset($pages_templates['templates/careers.php']);
+    unset($pages_templates['templates/community.php']);
+    unset($pages_templates['templates/food-team.php']);
+    unset($pages_templates['templates/order-online.php']);
+    unset($pages_templates['templates/our-story.php']);
 
     return $pages_templates;
 }
-add_filter( 'theme_page_templates', 'my_remove_page_template' );
+add_filter( 'theme_page_templates', 'remove_page_templates' );
 
 ?>
