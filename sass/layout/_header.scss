@@ -12,13 +12,14 @@ header{
       height: auto;
       width: 140px;
       margin:0;
-      margin-left:-70px;
+      margin-left:-55px;
       z-index: 600;
 
       @media (min-width: $screen-md-min) {
         margin:0;
         top:15px;
         height: 45px;
+        width:auto;
         left:15px;
       }
     }
