@@ -1,6 +1,17 @@
 .good-meadow-carousel{
   margin-top: -15px;
   width:100%;
+  overflow: hidden;
+
+  max-height: 350px;
+
+  @media (min-width: $screen-md-min) {
+    max-height: 400px;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    max-height: 450px;    
+  }  
 
   > div {
 
@@ -13,7 +24,7 @@
 
 .hero {
   margin-top:-15px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .hero.mini-hero{

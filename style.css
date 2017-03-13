@@ -31,14 +31,22 @@ header {
 
 .good-meadow-carousel {
   margin-top: -15px;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden;
+  max-height: 350px; }
+  @media (min-width: 900px) {
+    .good-meadow-carousel {
+      max-height: 400px; } }
+  @media (min-width: 1080px) {
+    .good-meadow-carousel {
+      max-height: 450px; } }
   .good-meadow-carousel > div img {
     width: 100%;
     height: auto; }
 
 .hero {
   margin-top: -15px;
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
 
 .hero.mini-hero {
   margin-bottom: 50px;
